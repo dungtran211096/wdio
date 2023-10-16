@@ -12,7 +12,7 @@ export const config: WebdriverIO.Config = {
     // from which `wdio` was called.
     //
     //Server Configurations:
-    hostname: 'wdio-demo_hub',
+    hostname: '0.0.0.0',
     port: 4444,
     // The specs are defined as an array of spec files (optionally using wildcards
     // that will be expanded). The test for each spec file will be run in a separate
